@@ -21,7 +21,7 @@
 <template>
     <div class="todo-app">
         <div class="task-input">
-            <input v-model="newTab" @keyup.enter="addTask" placeholder="Add new Tasks" />
+            <input v-model="newTask" @keyup.enter="addTask" placeholder="Add new Tasks" />
             <button @click="addTask">Add To Do</button>
 
         </div>
